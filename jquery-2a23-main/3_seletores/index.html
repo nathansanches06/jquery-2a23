@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução jQuery</title>
+    <!--Chamando biblioteca jQuery-->
+    <script type="text/javascript" src="jquery.js"></script>
+    <!--Funcionalidade da página-->
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        $(document).ready(function (){
+            $("#ListaOrdendada").css("color", "red");
+            $(".listaOrdenadadois li").css("color","green");
+            //$("ul").css("color", "blue");
+            $("p").css("color","blue");
+        });
+       
+    
+
+        
+        
+    </script>
+</head>
+
+<body>
+    <ul id="ListaOrdendada">
+   <li>link 01</li>
+   <li>link 02</li>
+   <li>link 03</li>
+   <li><a href="#">link</a></li>
+    </ul>
+    <ul id="ListaOrdendadadois">
+        <li>link 01</li>
+        <li>link 02</li>
+        <li>link 03</li>
+        </ul>
+        <p>texto</p>
+    </form>
+
+  
+</body>
+
+</html> 
